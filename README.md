@@ -78,6 +78,7 @@ Menampilkan dialog konfirmasi sebelum menghapus user. Setelah konfirmasi, fungsi
 
 ## Kesimpulan dan Saran
 Dari hasil praktikum yang telah dilakukan, dapat disimpulkan bahwa proses pembuatan aplikasi Flutter dengan penerapan fungsi CRUD (Create, Read, Update, Delete) menggunakan REST API berjalan dengan baik, dan dapat mengembangkan kemampuan untuk membangun aplikasi mobile yang terhubung dengan data eksternal secara real time dan terstruktur. Namun masih terdapat beberapa kendala yang disebabkan oleh keterbatasan API ReqRes nya, yakni membatasi permintaan POST/PUT/DELETE dari beberapa jaringan. Pada bagian GET masih dapat dijalankan karena bersifat public, sedangkan POST, PUT, DELETE terdapat error 401 Unauthorized.
+
 Agar pengembangan aplikasi lebih baik, mungkin beberapa saran yang dapat diberikan antara lain:
 1.	Menambahkan autentikasi pengguna (login dan register) agar data lebih aman dan bersifat personal.
 2.	Menambahkan fitur pencarian dan filter data agar pengguna dapat menemukan informasi dengan lebih cepat.
